@@ -1,7 +1,7 @@
-## Function to find best EN for alpha1 and beta1 search grid
 En_fun_search = function(phi0,phi1,alpha=0.05, beta=0.2,
                          alpha1=seq(0.05, 0.5, 0.005),beta1=seq(0.001, 0.199, 0.005),
                          pi=0,surv_dist, tau=2){
+  
   # phi0 is median survival time under null hypothesis
   # phi1 is median survival time under alternative hypothesis
   # alpha1 is a list of type I error for first stage to search
