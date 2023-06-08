@@ -9,7 +9,9 @@ library(dplyr)
 set.seed(1234)
 
 phi0=10
+
 phi1=17
 
 out <- METTSS_rule(phi0, phi1, alpha=0.05, beta=0.2, pi=0, surv_dist="weibull")
+
 out
