@@ -1,4 +1,3 @@
-### calculate sample size and threshold for one stage design
 rule_stg1 = function(phi0,phi1,alpha=0.05, beta=0.2,
                      pi=0,surv_dist, tau=2){
   
